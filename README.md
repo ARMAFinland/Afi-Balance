@@ -1,4 +1,5 @@
-# Tun-Balance
+# Afi-Balance
+
 Balances and tweaks for weapons and ammo.
 
 
