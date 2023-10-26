@@ -2,6 +2,6 @@ class CfgWeapons {
     class Launcher_Base_F;
     
     class UK3CB_Blowpipe: Launcher_Base_F {
-        magazines[] += {"TunBalance_Blowpipe_Round",};
+        magazines[] += {"AfiBalance_Blowpipe_Round"};
     };
 };

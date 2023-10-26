@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="TunBalance">
-    <Package name="ammo">
+<Project name="AfiBalance_Improved_Blowpipe">
+    <Package name="Ammo">
         <Container name="Some Words">
-            <Key ID="STR_TunBalance_Ammo_Blowpipe_DisplayName">
+            <Key ID="STR_AfiBalance_Improved_Blowpipe_Blowpipe_DisplayName">
                 <Original>Blowpipe Missile (AFI edition)</Original>
                 <English>Blowpipe Missile (AFI edition)</English>
             </Key>

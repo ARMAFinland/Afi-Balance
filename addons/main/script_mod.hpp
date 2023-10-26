@@ -1,5 +1,5 @@
 #define MAINPREFIX x
-#define PREFIX TunBalance
+#define PREFIX AfiBalance
 
 #include "script_version.hpp"
 
@@ -9,7 +9,7 @@
 #define REQUIRED_VERSION 2.14
 
 #ifdef COMPONENT_BEAUTIFIED
-    #define COMPONENT_NAME QUOTE(TunBalance - COMPONENT_BEAUTIFIED)
+    #define COMPONENT_NAME QUOTE(AfiBalance - COMPONENT_BEAUTIFIED)
 #else
-    #define COMPONENT_NAME QUOTE(TunBalance - COMPONENT)
+    #define COMPONENT_NAME QUOTE(AfiBalance - COMPONENT)
 #endif

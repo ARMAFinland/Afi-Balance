@@ -2,4 +2,4 @@
 Balances and tweaks for weapons and ammo.
 
 
-Blowpipe magazine = "TunBalance_Blowpipe_Round";
+Blowpipe magazine = "AfiBalance_Blowpipe_Round";

@@ -1,5 +1,5 @@
-dir = "@TunBalance";
-name = "Tun Balance v0.0.0";
+dir = "@AfiBalance";
+name = "Afi Balance v0.0.0";
 
 author = "Tuntematon";
 
@@ -12,9 +12,9 @@ logo            = "data\afilogo.paa";        // Logo displayed in the main menu 
 logoOver        = "data\afilogo.paa"; // When the mouse is over, in the main menu 128x128
 tooltip         = "Balances and tweaks for weapons and ammo.";
 tooltipOwned    = "Balances and tweaks for weapons and ammo.";  // Tool tip displayed when the mouse is left over, in the main menu
-overview        = "Tun Balance v0.0.0";         // Overview text, displayed from the extension menu
+overview        = "Afi Balance v0.0.0";         // Overview text, displayed from the extension menu
 description     = "It's unclear where this will show"; // Probably in context with action
-action          = "https://github.com/tuntematonjr/Tun-Balance";    // Website URL, that can accessed from the expansions menu 
+action          = "https://github.com/tuntematonjr/Afi-Balance";    // Website URL, that can accessed from the expansions menu 
 actionName      = "Github";                 // label of button/tooltip in extension menu
 
 // Color used for DLC stripes and backgrounds (RGBA)

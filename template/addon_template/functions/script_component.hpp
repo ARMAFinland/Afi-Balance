@@ -1,1 +1,1 @@
-#include "\x\TunBalance\addons\addon_template\script_component.hpp"
+#include "\x\AfiBalance\addons\addon_template\script_component.hpp"

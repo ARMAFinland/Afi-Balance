@@ -1,6 +1,6 @@
 class CfgCloudlets {
 	class Missile3;
-	class TunBalance_blowpipe_effect: Missile3 {
+	class AfiBalance_3cbBlowpipe_SmokeTrail: Missile3 {
 		interval = "0.00025";
 		lifeTime = 15;
 		volume = 1.75;
@@ -9,7 +9,7 @@ class CfgCloudlets {
 	};
 };
 
-class TunBalance_blowpipe_effect {
+class AfiBalance_3cbBlowpipe_SmokeTrail {
 	class Light1 {
 		simulation = "light";
 		type = "RocketLight";
@@ -19,8 +19,8 @@ class TunBalance_blowpipe_effect {
 		lifeTime = 1;
 	};
 	
-	class TunBalance_blowpipe_effect {
+	class AfiBalance_3cbBlowpipe_SmokeTrail {
 		simulation = "particles";
-		type = "TunBalance_blowpipe_effect";
+		type = "AfiBalance_3cbBlowpipe_SmokeTrail";
 	};
 };

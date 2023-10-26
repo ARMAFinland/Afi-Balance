@@ -7,9 +7,10 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"uk3cb_factions_weapons","TunBalance_main","A3_Data_F_ParticleEffects","A3_Weapons_F"};
-        author = "Tuntematon";
+        requiredAddons[] = {"uk3cb_factions_weapons","AfiBalance_main","A3_Data_F_ParticleEffects","A3_Weapons_F"};
+        authors[] = {"Tuntematon", "Enzio"};
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
