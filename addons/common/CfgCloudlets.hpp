@@ -10,7 +10,7 @@ class CfgCloudlets {
 		colorVar[] = {{ 0.5,0.5,0.5,0.75},{ 0.75,0.75,0.75,0.5 },{ 1,1,1,0 }};
 		destroyOnWaterSurface = 1;
 		destroyOnWaterSurfaceOffset = -0.1;
-		interval = "0.00025";
+		interval = "0.0004";
 		lifeTime = 15;
 		lifeTimeVar = 5;
 		moveVelocity[] = {0,0,0};
