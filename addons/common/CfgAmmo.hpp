@@ -1,5 +1,6 @@
 class CfgAmmo {
-	class GVAR(missile_base) {
+	class MissileBase;
+	class GVAR(missile_base): MissileBase{
 		ace_frag_skip = 1;
 		cmImmunity = 0.8;
 		effectsMissileInit = "RocketBackEffectsRPG";

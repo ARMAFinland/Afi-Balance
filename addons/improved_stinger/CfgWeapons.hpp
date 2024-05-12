@@ -17,7 +17,7 @@ class CfgWeapons {
 		cursor = "";
 		lockedTargetSound[] = {QPATHTOF(sound\stinger_lock.ogg), 1, 1};
 		lockingTargetSound[] = {QPATHTOF(sound\stinger_seek.ogg), 1, 1};
-		magazines[] += {GVAR(mag_4Rnd_stinger),GVAR(mag_2Rnd_stinger)};
+		magazines[] += {QGVAR(mag_4Rnd_stinger),QGVAR(mag_2Rnd_stinger)};
 		weaponInfoType = "RscWeaponEmpty";
 		weaponLockDelay = 4;
 	};

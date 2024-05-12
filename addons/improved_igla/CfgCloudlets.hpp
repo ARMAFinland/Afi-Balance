@@ -15,8 +15,7 @@ class CfgCloudlets {
 	};
 };
 
-EGVAR(common,AA_launcher_effect)
-
+class EGVAR(common,AA_launcher_effect);
 class GVAR(effect_fired): EGVAR(common,AA_launcher_effect) {
 
 	class GVAR(effect_fired) {

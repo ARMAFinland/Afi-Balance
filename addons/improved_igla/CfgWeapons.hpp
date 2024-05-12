@@ -7,7 +7,7 @@ class CfgWeapons {
 		cursor = "";
 		lockedTargetSound[] = {QPATHTOF(sound\igla_lock.ogg), 1, 1};
 		lockingTargetSound[] = {QPATHTOF(sound\igla_seek.ogg), 1, 1};
-		magazines[] += {GVAR(9k32_rocket_old),GVAR(9k32_rocket)};
+		magazines[] += {QGVAR(9k32_rocket_old),QGVAR(9k32_rocket)};
 		weaponInfoType = "RscWeaponEmpty";
 		weaponLockDelay = 4;
 	};
@@ -17,7 +17,7 @@ class CfgWeapons {
 		cursor = "";
 		lockedTargetSound[] = {QPATHTOF(sound\igla_lock.ogg), 1, 1};
 		lockingTargetSound[] = {QPATHTOF(sound\igla_seek.ogg), 1, 1};
-		magazines[] += {GVAR(mag_2Rnd_Igla)};
+		magazines[] += {QGVAR(mag_2Rnd_Igla)};
 		weaponInfoType = "RscWeaponEmpty";
 		weaponLockDelay = 4;
 	};

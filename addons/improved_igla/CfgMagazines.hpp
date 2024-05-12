@@ -3,12 +3,12 @@ class CfgMagazines {
 	class rhs_mag_9k32_rocket;
 
 	class GVAR(9k32_rocket_old): rhs_mag_9k32_rocket {
-		ammo = GVAR(9k32_missile_old);
+		ammo = QGVAR(9k32_missile_old);
 		displayname = "9K32 - AFI Old";
 	};
 
 	class GVAR(9k32_rocket): rhs_mag_9k32_rocket {
-		ammo = GVAR(9k32_missile);
+		ammo = QGVAR(9k32_missile);
 		displayname = "9K32 - AFI";
 	};
 
@@ -24,7 +24,7 @@ class CfgMagazines {
 	
 	class rhs_mag_2Rnd_Igla;
 	class GVAR(mag_2Rnd_Igla): rhs_mag_2Rnd_Igla {
-		ammo = "afi_ammo_9k32_missile";
+		ammo = QGVAR(9k32_missile);
 		displayname = "9K32 - AFI";
 	};
 };

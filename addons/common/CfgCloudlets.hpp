@@ -10,7 +10,7 @@ class CfgCloudlets {
 		colorVar[] = {{ 0.5,0.5,0.5,0.75},{ 0.75,0.75,0.75,0.5 },{ 1,1,1,0 }};
 		destroyOnWaterSurface = 1;
 		destroyOnWaterSurfaceOffset = -0.1;
-		interval = "0.0005";
+		interval = "0.00025";
 		lifeTime = 15;
 		lifeTimeVar = 5;
 		moveVelocity[] = {0,0,0};
@@ -28,12 +28,12 @@ class CfgCloudlets {
 		rotationVelocity = 1;
 		rotationVelocityVar = 5;
 		rubbing = 0.05;
-		size[] = {1,4};
+		size[] = {1,3};
 		sizeVar = 1;
 		surfaceOffset = 0.1;
 		volume = 1.75;
 		weight = 2.225;
-	};
+	};	
 };
 
 class GVAR(AA_launcher_effect) {

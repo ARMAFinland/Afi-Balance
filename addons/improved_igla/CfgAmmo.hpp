@@ -17,7 +17,7 @@ class CfgAmmo {
 	};
 
 	class rhs_ammo_9k32;
-	calss EGVAR(common,missile_base);
+	class EGVAR(common,missile_base);
 
 	class GVAR(missile_base): EGVAR(common,missile_base) {
 		effectsMissile = QGVAR(effect_fired);
