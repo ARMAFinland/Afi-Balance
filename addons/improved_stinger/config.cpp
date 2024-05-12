@@ -7,8 +7,8 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"rhs_c_weapons","rhs_c_heavyweapons", "rhsusf_c_airweapons","RHS_US_A2Port_Armor","rhsusf_c_weapons","rhsusf_c_statics","A3_Data_F_ParticleEffects","A3_Weapons_F","ace_overpressure",AFIBALANCE_COMMON};
-        authors[] = {"Johnson", "Tuntematon"};
+        requiredAddons[] = {"rhsusf_c_airweapons","rhsusf_c_weapons","ace_compat_rhs_usf3","A3_Weapons_F","A3_Weapons_F_Launchers_Titan","rhsusf_c_heavyweapons","A3_Sounds_F","ace_frag"};
+        authors[] = {"Johnson","Tuntematon"};
         VERSION_CONFIG;
         skipWhenMissingDependencies = 1;
     };
@@ -16,6 +16,6 @@ class CfgPatches {
 
 // configs go here
 #include "CfgAmmo.hpp"
+#include "CfgCloudlets.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgWeapons.hpp"
-#include "CfgCloudlets.hpp"

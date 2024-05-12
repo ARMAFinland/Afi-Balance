@@ -1,4 +1,4 @@
-#define COMPONENT Improved_Blowpipe
+#define COMPONENT improved_blowpipe
 #define COMPONENT_BEAUTIFIED Improved_Blowpipe
 #include "\x\AfiBalance\addons\main\script_mod.hpp"
 

@@ -1,1 +1,0 @@
-#include "\x\AfiBalance\addons\addon_template\script_component.hpp"

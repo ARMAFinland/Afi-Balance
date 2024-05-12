@@ -7,15 +7,13 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"uk3cb_factions_weapons","AfiBalance_main","A3_Data_F_ParticleEffects","A3_Weapons_F"};
-        authors[] = {"Tuntematon", "Enzio"};
+        requiredAddons[] = {"A3_Ui_F", "AfiBalance_main"};
+        authors[] = {"Tuntematon"};
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 
 // configs go here
 #include "CfgAmmo.hpp"
 #include "CfgCloudlets.hpp"
-#include "CfgMagazines.hpp"
-#include "CfgWeapons.hpp"
+#include "CfgInGameUI.hpp"

@@ -1,8 +1,8 @@
 class CfgAmmo {
     class UK3CB_Blowpipe_missile;
-    class AfiBalance_Blowpipe_missile: UK3CB_Blowpipe_missile {
-        indirectHitRange = 4;
+    class GVAR(missile): UK3CB_Blowpipe_missile {
         ace_frag_skip = 1;
-        effectsMissile = "AfiBalance_3cbBlowpipe_SmokeTrail";
+        effectsMissile = QGVAR(effect_fired);
+        indirectHitRange = 5;
     };
 };

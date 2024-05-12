@@ -7,11 +7,12 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"AfiBalance_main"};
-        authors[] = {"Your Name", "Other Author"}; // sub array of authors, considered for the specific addon, can be removed or left empty {}
+        requiredAddons[] = {"rhsusf_c_heavyweapons"};
+        authors[] = {"Johnson", "Tuntematon"};
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
 // configs go here
-#include "CfgEventHandlers.hpp"
+#include "CfgAmmo.hpp"

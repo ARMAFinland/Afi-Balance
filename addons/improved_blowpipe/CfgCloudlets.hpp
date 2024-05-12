@@ -1,26 +1,26 @@
 class CfgCloudlets {
 	class Missile3;
-	class AfiBalance_3cbBlowpipe_SmokeTrail: Missile3 {
+	class GVAR(effect_fired): Missile3 {
 		interval = "0.00025";
 		lifeTime = 15;
-		volume = 1.75;
 		lifeTimeVar = 5;
 		sizeVar = 1;
+		volume = 1.75;
 	};
 };
 
-class AfiBalance_3cbBlowpipe_SmokeTrail {
+class GVAR(effect_fired) {
 	class Light1 {
-		simulation = "light";
-		type = "RocketLight";
-		position[] = {0,0,0};
 		intensity = 0.1;
 		interval = 1;
 		lifeTime = 1;
+		position[] = {0,0,0};
+		simulation = "light";
+		type = "RocketLight";
 	};
 	
-	class AfiBalance_3cbBlowpipe_SmokeTrail {
+	class GVAR(effect_fired) {
 		simulation = "particles";
-		type = "AfiBalance_3cbBlowpipe_SmokeTrail";
+		type = QGVAR(effect_fired);
 	};
 };
