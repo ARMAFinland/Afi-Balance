@@ -1,5 +1,5 @@
-#define COMPONENT common
-#define COMPONENT_BEAUTIFIED Common
+#define COMPONENT artillery_rhs_afrf
+#define COMPONENT_BEAUTIFIED artillery_rhs_afrf
 #include "\x\AfiBalance\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

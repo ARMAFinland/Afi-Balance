@@ -7,12 +7,12 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"A3_Ui_F", "AfiBalance_main"};
-        authors[] = {"Tuntematon"};
+        requiredAddons[] = {"A3_Weapons_F","A3_Sounds_F","ace_frag", "AfiBalance_main"};
+        authors[] = {"Johnson", "Tuntematon"};
         VERSION_CONFIG;
+        //skipWhenMissingDependencies = 1;
     };
 };
 
 // configs go here
-#include "CfgCloudlets.hpp"
-#include "CfgInGameUI.hpp"
+#include "CfgAmmo.hpp"

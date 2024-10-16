@@ -7,7 +7,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"cba_xeh","cba_settings", "ace_main"};
+        requiredAddons[] = {"cba_xeh","cba_settings", "ace_main", "ace_common"};
         author = "Tuntematon"; // primary author name, either yours or your team's, considered for the whole mod
         VERSION_CONFIG;
     };

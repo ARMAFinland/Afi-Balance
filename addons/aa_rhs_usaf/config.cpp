@@ -7,12 +7,15 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"A3_Ui_F", "AfiBalance_main"};
-        authors[] = {"Tuntematon"};
+        requiredAddons[] = {"rhsusf_main_loadorder", "ace_compat_rhs_usf3", "afibalance_common"};
+        authors[] = {"Johnson", "Tuntematon"};
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
 // configs go here
+#include "CfgAmmo.hpp"
 #include "CfgCloudlets.hpp"
-#include "CfgInGameUI.hpp"
+#include "CfgMagazines.hpp"
+#include "CfgWeapons.hpp"

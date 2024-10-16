@@ -13,19 +13,24 @@ include = [
 git_hash = 0 
 
 [binarize]
-enabled = false 
+enabled = true 
 
 [lint.sqf]
-enabled = false
+enabled = true
 
 [hemtt.launch.default]
 workshop = [
-    "450814997",
-    "463939057",
+    "450814997", # CBA_A3
+    "463939057", # ACE
+    "843425103", # RHS AFRF Workshop ID
+    "843577117", # RHS USAF Workshop ID
+    "843593391", # RHS GREF Workshop ID
+    "843632231", # RHS SAF  Workshop ID
+    "1673456286", # 3CB FACTIONS Workshop ID
 ]
 parameters = [
     "-skipIntro",           # These parameters are passed to the Arma 3 executable
     "-noSplash",            # They do not need to be added to your list
     "-showScriptErrors",    # You can add additional parameters here
-    #"C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\startmarkers.Enoch\\mission.sqm", # Launch into existing Editor Mission - \\ needed
+    "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\igla.altis\\mission.sqm", # Launch into existing Editor Mission - \\ needed
 ]

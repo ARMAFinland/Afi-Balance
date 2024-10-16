@@ -9,4 +9,5 @@
 #endif
 
 
-#define AFIBALANCE_COMMON "afibalance_common"
+#include "CfgAmmoMacros.hpp"
+#include "CfgWeaponsMacros.hpp"
