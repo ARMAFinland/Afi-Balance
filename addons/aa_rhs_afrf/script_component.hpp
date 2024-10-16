@@ -1,4 +1,5 @@
-#define COMPONENT main
+#define COMPONENT aa_rhs_afrf
+#define COMPONENT_BEAUTIFIED aa_rhs_afrf
 #include "\x\AfiBalance\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

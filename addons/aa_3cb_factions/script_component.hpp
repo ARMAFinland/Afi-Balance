@@ -1,4 +1,5 @@
-#define COMPONENT main
+#define COMPONENT aa_3cb_factions
+#define COMPONENT_BEAUTIFIED aa_3cb_factions
 #include "\x\AfiBalance\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

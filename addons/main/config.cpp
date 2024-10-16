@@ -7,19 +7,17 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {  };
+        requiredAddons[] = {"cba_xeh","cba_settings", "ace_main", "ace_common"};
         author = "Tuntematon"; // primary author name, either yours or your team's, considered for the whole mod
-        authors[] = {"Tuntematon", "Enzio"};
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 
 // information on the whole mod (only needed once)
 class CfgMods {
     class PREFIX {
-        dir = "@TunBalance";
-        name = "Tun Balance";
+        dir = "@AfiBalance";
+        name = "Afi Balance";
         
         author = "Tuntematon";                    // probably shown somewhere in the mods menu, but probably ignored by CBA/HEMTT
 
@@ -27,7 +25,7 @@ class CfgMods {
         hideName        = "false";              // Hide the extension name in main menu and extension menu
         hidePicture     = "false";              // Hide the extension picture in the extension menu
 
-        action          = "https://github.com/tuntematonjr/Tun-Balance"; // Website URL, that can accessed from the expansions menu 
+        action          = "https://github.com/tuntematonjr/Afi-Balance"; // Website URL, that can accessed from the expansions menu 
         actionName      = "Github";              // label of button/tooltip in extension menu
         description     = "It's unclear where this will show"; // Probably in context with action
 

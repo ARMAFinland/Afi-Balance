@@ -1,4 +1,5 @@
-#define COMPONENT main
+#define COMPONENT common
+#define COMPONENT_BEAUTIFIED Common
 #include "\x\AfiBalance\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

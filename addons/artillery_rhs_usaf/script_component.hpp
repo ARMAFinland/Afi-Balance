@@ -1,4 +1,5 @@
-#define COMPONENT main
+#define COMPONENT artillery_rhs_usaf
+#define COMPONENT_BEAUTIFIED artillery_rhs_usaf
 #include "\x\AfiBalance\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

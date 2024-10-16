@@ -1,1 +1,0 @@
-#include "\x\TunBalance\addons\addon_template\script_component.hpp"
