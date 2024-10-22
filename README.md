@@ -27,3 +27,11 @@ notes:
 - Unified all mortar shelss.
 - Both sides has similar damage values
 - Bigger focus on ace frags
+
+
+# IED  
+Add seperate IEDs with pressureplates. Also nokia tune & others are here
+
+
+# Mines vanilla
+Tweaks mine damages
