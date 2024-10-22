@@ -1,0 +1,2 @@
+PREP(activateTripFlare);
+PREP(initTripFlare);

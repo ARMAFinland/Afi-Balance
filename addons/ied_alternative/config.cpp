@@ -6,9 +6,8 @@ class CfgPatches {
 		name = COMPONENT_NAME;
 		units[] = {};
 		weapons[] = {};
-		magazines[] = {"IEDUrbanBig_Pressure_Mag"};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"ace_explosives","ace_interaction","ace_interact_menu","A3_Weapons_F","Extended_EventHandlers", "AfiBalance_main"};
+		requiredAddons[] = {"ace_explosives","A3_Weapons_F","Extended_EventHandlers", "AfiBalance_main"};
 		authors[] = {"Johnson", "Anatooli", "Tuntematon"};
 		VERSION_CONFIG;
 		//skipWhenMissingDependencies = 1;
