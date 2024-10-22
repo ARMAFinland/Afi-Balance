@@ -8,8 +8,8 @@ class CfgAmmo {
 		ACE_explodeOnDefuse = 0.25; // default 0
 	};
 
-	class AFI_IEDUrbanBig_Pressure_Ammo: IEDUrbanBig_Remote_Ammo {
-		ace_explosives_magazine = "AFI_IEDUrbanBig_Pressure_Mag";
+	class GVAR(UrbanBig_Pressure_Ammo): IEDUrbanBig_Remote_Ammo {
+		ace_explosives_magazine = QGVAR(UrbanBig_Pressure_Mag);
 	};
 	// class ACE_IEDUrbanBig_Command_Ammo: IEDUrbanBig_Remote_Ammo {
 	// 	mineTrigger = "RemoteTrigger";
@@ -26,8 +26,8 @@ class CfgAmmo {
 		ACE_explodeOnDefuse = 0.25; // default 0
 	};
 
-	class AFI_IEDUrbanSmall_Pressure_Ammo: IEDUrbanSmall_Remote_Ammo {
-		ace_explosives_magazine = "AFI_IEDUrbanSmall_Pressure_Mag";
+	class GVAR(UrbanSmall_Pressure_Ammo): IEDUrbanSmall_Remote_Ammo {
+		ace_explosives_magazine = QGVAR(UrbanSmall_Pressure_Mag);
 	};
 	// class ACE_ACE_IEDUrbanSmall_Command_Ammo: IEDUrbanSmall_Remote_Ammo {
 	// 	mineTrigger = "RemoteTrigger";
@@ -44,8 +44,8 @@ class CfgAmmo {
 		ACE_explodeOnDefuse = 0.25; // default 0
 	};
 
-	class AFI_IEDLandBig_Pressure_Ammo: IEDLandBig_Remote_Ammo {
-		ace_explosives_magazine = "AFI_IEDLandBig_Pressure_Mag";
+	class GVAR(LandBig_Pressure_Ammo): IEDLandBig_Remote_Ammo {
+		ace_explosives_magazine = QGVAR(LandBig_Pressure_Mag);
 	};
 	// class ACE_IEDLandBig_Command_Ammo: IEDLandBig_Remote_Ammo {
 	// 	mineTrigger = "RemoteTrigger";
@@ -62,8 +62,8 @@ class CfgAmmo {
 		ACE_explodeOnDefuse = 0.25; // default 0
 	};
 	
-	class AFI_IEDLandSmall_Pressure_Ammo: IEDLandSmall_Remote_Ammo {
-		ace_explosives_magazine = "AFI_IEDLandSmall_Pressure_Mag";
+	class GVAR(LandSmall_Pressure_Ammo): IEDLandSmall_Remote_Ammo {
+		ace_explosives_magazine = QGVAR(LandSmall_Pressure_Mag);
 	};
 	// class ACE_IEDLandSmall_Command_Ammo: IEDLandSmall_Remote_Ammo {
 	// 	mineTrigger = "RemoteTrigger";
