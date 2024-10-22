@@ -22,6 +22,18 @@ enabled = true
 workshop = [
     "450814997", # CBA_A3
     "463939057", # ACE
+]
+parameters = [
+    "-skipIntro",           # These parameters are passed to the Arma 3 executable
+    "-noSplash",            # They do not need to be added to your list
+    "-showScriptErrors",    # You can add additional parameters here
+    "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\minetest.Enoch\\mission.sqm", # Launch into existing Editor Mission - \\ needed
+]
+
+[hemtt.launch.all]
+workshop = [
+    "450814997", # CBA_A3
+    "463939057", # ACE
     "843425103", # RHS AFRF Workshop ID
     "843577117", # RHS USAF Workshop ID
     "843593391", # RHS GREF Workshop ID
