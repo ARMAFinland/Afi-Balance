@@ -35,3 +35,16 @@ Add seperate IEDs with pressureplates. Also nokia tune & others are here
 
 # Mines vanilla
 Tweaks mine damages
+
+# Tripflars
+Add 4 colours of air and ground variants of tripflares
+White = `AfiBalance_tripflare_Mag_White`  
+Red = `AfiBalance_tripflare_Mag_Red`  
+Green = `AfiBalance_tripflare_Mag_Green`  
+Yellow = `AfiBalance_tripflare_Mag_Yellow`  
+
+Ground:  
+White = `AfiBalance_tripflare_Mag_Ground_White`  
+Red = `AfiBalance_tripflare_Mag_Ground_Red`  
+Green = `AfiBalance_tripflare_Mag_Ground_Green`  
+Yellow = `AfiBalance_tripflare_Mag_Ground_Yellow`  
