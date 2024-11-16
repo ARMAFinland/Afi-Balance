@@ -10,7 +10,6 @@ class CfgPatches {
 		requiredAddons[] = {"AfiBalance_main","A3_Weapons_F","ace_grenades","ace_rearm"};
 		authors[] = {"Tikka", "Tuntematon"};
 		VERSION_CONFIG;
-		skipWhenMissingDependencies = 1;
 	};
 };
 
