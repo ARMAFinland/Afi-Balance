@@ -1,7 +1,12 @@
 # Afi-Balance
 
-Balances and tweaks for weapons and ammo.  
+Adjustments and improvements to weapons, equipment, vehicles, and ammunition.  
+This mod primarily focuses on modifying config entries with minimal changes to scripts and functions.  
 Ace and cba are only mods that are required, others are optional.
+This mod is build using [HEMTT](https://github.com/BrettMayson/HEMTT)
+
+# AA tweaks  
+Adjusts the accuracy and lethality of AA missiles.
 
 ## aa_3cb_factions
 ### Blowpipe
@@ -22,19 +27,25 @@ Static = `AFiBalance_aa_rhs_usaf_mag_2Rnd_stinger`
 
 
 # Artillery
-Most of the artillery shells has been tweaked.
+Most of the artillery shells has been tweaked.  
 notes:
-- Unified all mortar shelss.
-- Both sides has similar damage values
-- Bigger focus on ace frags
+- Standardized mortar shells with consistent damage values.
+- Balanced artillery shells for similar effectiveness on both sides.
+- Increased emphasis on ACE fragmentation.
 
 
 # IED  
-Add seperate IEDs with pressureplates. Also nokia tune & others are here
-
+Added separate IEDs with pressure plates, including the Nokia tune and more.
 
 # Mines vanilla
-Tweaks mine damages
+- Reduce lethality of smaller AP mines, focusing on heavy wounding and fragmentation.
+
+
+# Flare tweaks
+- Makes flares birghter.
+
+# Flashlight tweaks
+- Makes flashlights better.
 
 # Tripflars
 Add 4 colours of air and ground variants of tripflares  
@@ -48,3 +59,6 @@ White = `AfiBalance_tripflare_Mag_Ground_White`
 Red = `AfiBalance_tripflare_Mag_Ground_Red`  
 Green = `AfiBalance_tripflare_Mag_Ground_Green`  
 Yellow = `AfiBalance_tripflare_Mag_Ground_Yellow`  
+
+# Tracer tweaks
+- Tweak tracers
