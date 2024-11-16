@@ -35,7 +35,8 @@ notes:
 
 
 # IED  
-Added separate IEDs with pressure plates, including the Nokia tune and more.
+Added separate IEDs with pressure plates, including the Nokia tune and more.  
+[This modifies this ace fnc](https://github.com/acemod/ACE3/blob/7bb0d1c05227be74f42ae5d96914e1a6760e6f56/addons/explosives/functions/fnc_dialPhone.sqf)
 
 # Mines vanilla
 - Reduce lethality of smaller AP mines, focusing on heavy wounding and fragmentation.
