@@ -1,6 +1,7 @@
 #define _missile_base_ \
 		ace_frag_skip = 1; \
 		cmImmunity = 0.8; \
+		effectsMissile = QGVAR(effect_fired); \
 		effectsMissileInit = "RocketBackEffectsRPG"; \
 		hit = 40; \
 		indirecthit = 60; \
@@ -43,7 +44,7 @@
 					}; \
 				}; \
 			}; \
-		}; \
+		};
 
 ///////////////////
 //Basic ace frags//
@@ -64,7 +65,7 @@
 		ace_frag_gurney_c = 2440; \
 		ace_frag_gurney_k = "1/2"; \
 		ace_frag_skip = 0; \
-		ace_frag_force = 0; \
+		ace_frag_force = 0;
 
 // Defaults
 // ace_frag_classes ["ace_frag_large","ace_frag_large","ace_frag_large_HD","ace_frag_large","ace_frag_huge","ace_frag_huge_HD","ace_frag_huge"]
@@ -81,7 +82,7 @@
 		ace_frag_gurney_c = 2440; \
 		ace_frag_gurney_k = "1/2"; \
 		ace_frag_skip = 0; \
-		ace_frag_force = 0; \
+		ace_frag_force = 0;
 
 // OLD AFI
 // ace_frag_classes ["ACE_frag_large_HD","ACE_frag_large","ACE_frag_medium_HD","ACE_frag_medium"]
@@ -98,7 +99,7 @@
 		ace_frag_gurney_c = 2440; \
 		ace_frag_gurney_k = "1/2"; \
 		ace_frag_skip = 0; \
-		ace_frag_force = 0; \
+		ace_frag_force = 0;
 
 
 //////////////
