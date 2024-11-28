@@ -7,7 +7,7 @@ class CfgWeapons {
 		cursor = "";
 		lockedTargetSound[] = {QPATHTOF(sound\stinger_lock.ogg), 1, 1};
 		lockingTargetSound[] = {QPATHTOF(sound\stinger_seek.ogg), 1, 1};
-		magazines[] += {QGVAR(fim92_mag)};
+		magazines[] += {QGVAR(fim92_mag),QGVAR(fim92_mag_old)};
 		weaponLockDelay = 4;
 	};
 
