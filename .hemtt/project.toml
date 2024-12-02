@@ -22,6 +22,7 @@ enabled = true
 workshop = [
     "450814997", # CBA_A3
     "463939057", # ACE
+    "2369477168", # Advanced tool thing
 ]
 parameters = [
     "-skipIntro",           # These parameters are passed to the Arma 3 executable
@@ -39,6 +40,7 @@ workshop = [
     "843593391", # RHS GREF Workshop ID
     "843632231", # RHS SAF  Workshop ID
     "1673456286", # 3CB FACTIONS Workshop ID
+    "2369477168", # Advanced tool thing
 ]
 parameters = [
     "-skipIntro",           # These parameters are passed to the Arma 3 executable
@@ -61,6 +63,7 @@ workshop = [
     "843632231", # RHS SAF  Workshop ID
     "1673456286", # 3CB FACTIONS Workshop ID
     "893349825", # 3CB Vehicles Workshop ID
+    "2369477168", # Advanced tool thing
 ]
 parameters = [
     "-server",
@@ -80,6 +83,7 @@ workshop = [
     "843632231", # RHS SAF  Workshop ID
     "1673456286", # 3CB FACTIONS Workshop ID
     "893349825", # 3CB Vehicles Workshop ID
+    "2369477168", # Advanced tool thing
 ]
 parameters = [
     "-skipIntro",         # These parameters are passed to the Arma 3 executable
