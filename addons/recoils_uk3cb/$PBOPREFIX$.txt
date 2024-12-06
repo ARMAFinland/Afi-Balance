@@ -1,1 +1,1 @@
-x\AfiBalance\addons\recoils_uk3cb
+x\afibalance\addons\recoils_uk3cb

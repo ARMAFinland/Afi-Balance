@@ -16,7 +16,7 @@ class CfgPatches {
 // information on the whole mod (only needed once)
 class CfgMods {
 	class PREFIX {
-		dir = "@AfiBalance";
+		dir = "@afibalance";
 		name = "Afi Balance";
 		
 		author = "Tuntematon";					// probably shown somewhere in the mods menu, but probably ignored by CBA/HEMTT

@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [] call AfiBalance_tripflare_fnc_activateTripFlare
+ * [] call afibalance_tripflare_fnc_activateTripFlare
  */
 #include "script_component.hpp"
 params ["_projectile", "_pos"];

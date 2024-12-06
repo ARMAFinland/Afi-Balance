@@ -1,1 +1,1 @@
-x\AfiBalance\addons\recoils_rhs_usaf
+x\afibalance\addons\recoils_rhs_usaf

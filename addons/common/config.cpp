@@ -7,7 +7,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"A3_Ui_F", "AfiBalance_main"};
+		requiredAddons[] = {"A3_Ui_F", "afibalance_main"};
 		authors[] = {"Tuntematon"};
 		VERSION_CONFIG;
 	};

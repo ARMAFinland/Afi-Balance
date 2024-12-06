@@ -1,5 +1,5 @@
 #define MAINPREFIX x
-#define PREFIX AfiBalance
+#define PREFIX afibalance
 
 #include "script_version.hpp"
 
@@ -9,9 +9,9 @@
 #define REQUIRED_VERSION 2.18
 
 #ifdef COMPONENT_BEAUTIFIED
-	#define COMPONENT_NAME QUOTE(AfiBalance - COMPONENT_BEAUTIFIED)
+	#define COMPONENT_NAME QUOTE(afibalance - COMPONENT_BEAUTIFIED)
 #else
-	#define COMPONENT_NAME QUOTE(AfiBalance - COMPONENT)
+	#define COMPONENT_NAME QUOTE(afibalance - COMPONENT)
 #endif
 
 //This forces debug on everything.

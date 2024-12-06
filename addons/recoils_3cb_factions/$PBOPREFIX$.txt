@@ -1,1 +1,1 @@
-x\AfiBalance\addons\recoils_3cb_factions
+x\afibalance\addons\recoils_3cb_factions

@@ -7,7 +7,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"rhsusf_c_heavyweapons", "AfiBalance_artillery_vanilla"};
+		requiredAddons[] = {"rhsusf_c_heavyweapons", "afibalance_artillery_vanilla"};
 		authors[] = {"Johnson", "Tuntematon"};
 		VERSION_CONFIG;
 		skipWhenMissingDependencies = 1;

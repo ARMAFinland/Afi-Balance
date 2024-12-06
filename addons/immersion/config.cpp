@@ -6,7 +6,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"AfiBalance_main","A3_Data_F_ParticleEffects","A3_Weapons_F_Exp","A3_Weapons_F","A3_Weapons_F_Enoch","A3_Data_F", "ace_hearing", "ace_advanced_fatigue"};
+		requiredAddons[] = {"afibalance_main","A3_Data_F_ParticleEffects","A3_Weapons_F_Exp","A3_Weapons_F","A3_Weapons_F_Enoch","A3_Data_F", "ace_hearing", "ace_advanced_fatigue"};
 		author[] = {};
 		VERSION_CONFIG;
 	};

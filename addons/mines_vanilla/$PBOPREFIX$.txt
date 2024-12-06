@@ -1,1 +1,1 @@
-x\AfiBalance\addons\mines_vanilla
+x\afibalance\addons\mines_vanilla

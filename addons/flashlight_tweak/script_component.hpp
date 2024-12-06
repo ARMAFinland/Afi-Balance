@@ -1,6 +1,6 @@
 #define COMPONENT flashlight_tweaks
 #define COMPONENT_BEAUTIFIED flashlight_tweaks
-#include "\x\AfiBalance\addons\main\script_mod.hpp"
+#include "\x\afibalance\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -9,4 +9,4 @@
 	#define DEBUG_MODE_FULL
 #endif
 
-#include "\x\AfiBalance\addons\main\script_macros.hpp"
+#include "\x\afibalance\addons\main\script_macros.hpp"

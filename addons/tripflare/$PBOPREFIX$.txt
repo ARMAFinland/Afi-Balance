@@ -1,1 +1,1 @@
-x\AfiBalance\addons\tripflare
+x\afibalance\addons\tripflare

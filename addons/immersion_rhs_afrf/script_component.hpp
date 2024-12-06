@@ -1,6 +1,6 @@
 #define COMPONENT immersion_rhs_afrf
 #define COMPONENT_BEAUTIFIED immersion_rhs_afrf
-#include "\x\AfiBalance\addons\main\script_mod.hpp"
+#include "\x\afibalance\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -9,7 +9,7 @@
 	#define DEBUG_MODE_FULL
 #endif
 
-#include "\x\AfiBalance\addons\main\script_macros.hpp"
+#include "\x\afibalance\addons\main\script_macros.hpp"
 
 #define BASE_EXPLOSION_SUPPRESS_POWER 4
 #define BASE_EXPLOSION_SUPPRESS_FORCE 2

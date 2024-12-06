@@ -1,1 +1,1 @@
-x\AfiBalance\addons\recoils_rhs_saf
+x\afibalance\addons\recoils_rhs_saf

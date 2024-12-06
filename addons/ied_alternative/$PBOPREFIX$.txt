@@ -1,1 +1,1 @@
-x\AfiBalance\addons\ied_alternative
+x\afibalance\addons\ied_alternative

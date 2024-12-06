@@ -1,6 +1,6 @@
 #define COMPONENT recoils_uk3cb
 #define COMPONENT_BEAUTIFIED recoils_uk3cb
-#include "\x\AfiBalance\addons\main\script_mod.hpp"
+#include "\x\afibalance\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -9,5 +9,5 @@
 	#define DEBUG_MODE_FULL
 #endif
 
-#include "\x\AfiBalance\addons\main\script_macros.hpp"
+#include "\x\afibalance\addons\main\script_macros.hpp"
 

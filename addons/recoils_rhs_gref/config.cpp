@@ -6,7 +6,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"AfiBalance_main","afibalance_recoils","rhsgref_c_weapons","rhsgref_sounds","ace_compat_rhs_gref3","RHSGREF_weapon_sounds"};
+		requiredAddons[] = {"afibalance_main","afibalance_recoils","rhsgref_c_weapons","rhsgref_sounds","ace_compat_rhs_gref3","RHSGREF_weapon_sounds"};
 		author[] = {};
 		VERSION_CONFIG;
 		skipWhenMissingDependencies = 1;

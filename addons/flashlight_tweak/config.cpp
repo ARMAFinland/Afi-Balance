@@ -7,7 +7,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"AfiBalance_main", "A3_Weapons_F_Acc"};
+		requiredAddons[] = {"afibalance_main", "A3_Weapons_F_Acc"};
 		authors[] = {"Tikka", "Tuntematon"};
 		VERSION_CONFIG;
 		skipWhenMissingDependencies = 1;
