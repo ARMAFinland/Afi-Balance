@@ -6,7 +6,6 @@ class CfgAmmo {
 			power=3;
 			duration=0.2;
 			frequency=20;
-			afi=6;
 		};
 	};
 };
