@@ -41,12 +41,18 @@ workshop = [
     "843632231", # RHS SAF  Workshop ID
     "1673456286", # 3CB FACTIONS Workshop ID
     "2369477168", # Advanced tool thing
+    "1661066023", # RKSL
+    "893339590", # BAF weapons
+    "893349825", # BAF vehicle
+    "893346105", # BAF units
+    "893328083", # BAF Equipment
 ]
+
 parameters = [
     "-skipIntro",           # These parameters are passed to the Arma 3 executable
     "-noSplash",            # They do not need to be added to your list
     "-showScriptErrors",    # You can add additional parameters here
-    "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\igla.altis\\mission.sqm", # Launch into existing Editor Mission - \\ needed
+    # "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\igla.altis\\mission.sqm", # Launch into existing Editor Mission - \\ needed
 ]
 
 [hemtt.release]
