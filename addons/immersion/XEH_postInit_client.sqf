@@ -39,8 +39,7 @@
 [{
 	private _eyePos = eyePos ACE_player;
 	private _indiciesToDelete = [];
-	
-	{
+	 {
 		private _bullet = _x;
 		if(isNull _bullet) then {
 			if( isNil {GVAR(ownedProjectilePos) select _forEachIndex } || { (GVAR(ownedProjectilePos) select _forEachIndex) distance _eyePos > GVAR(suppressRange) } ) then { 
@@ -55,8 +54,7 @@
 			};
 		};
 	} forEach GVAR(ownedProjectiles);
-	
-	{
+	 {
 		GVAR(ownedProjectiles) deleteAt _x;
 		GVAR(ownedProjectilePos) deleteAt _x;
 	} forEach _indiciesToDelete;

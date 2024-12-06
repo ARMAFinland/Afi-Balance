@@ -16,8 +16,7 @@ class cfgAmmo {
 		GVAR(triggerSound) = "Flare_whistle";
 		GVAR(flareSound) = "SoundFlareLoop_F";
 		SoundSetExplosion[] = {};
-		class EventHandlers
-		{
+		class EventHandlers {
 			//ammoHit	= QUOTE(_this call FUNC(activateTripFlare));
 			init = QUOTE(_this call FUNC(initTripFlare););
 		};

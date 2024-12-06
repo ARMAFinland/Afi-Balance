@@ -30,8 +30,7 @@ class CfgMods {
 		description	 = "It's unclear where this will show"; // Probably in context with action
 
 		// Color used for DLC stripes and backgrounds (RGBA)
-		dlcColor[] =
-		{
+		dlcColor[] = {
 			1,
 			0.0,
 			0.86,
