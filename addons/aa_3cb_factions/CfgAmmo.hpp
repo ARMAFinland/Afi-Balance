@@ -5,4 +5,9 @@ class CfgAmmo {
 		effectsMissile = QGVAR(effect_fired);
 		indirectHitRange = 5;
 	};
+
+	class rhs_ammo_9k38;
+	class UK3CB_AMMO_9M311M1: rhs_ammo_9k38 {
+		effectsMissile = QGVAR(effect_fired);
+	};
 };
