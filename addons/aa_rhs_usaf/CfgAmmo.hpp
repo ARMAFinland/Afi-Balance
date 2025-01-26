@@ -8,7 +8,7 @@ class CfgAmmo {
 		indirectHit = 60;
 		indirectHitRange = 8;
 		maxSpeed = 750;
-		model = "\rhsusf\addons\rhsusf_weapons\FIM92\Stinger_Rocket";
+		model = "\rhsusf\addons\rhsusf_weapons\FIM92\Stinger_Rocket.p3d";
 		thrust = 325;
 		thrustTime = 4.9;
 		timeToLive = 15;

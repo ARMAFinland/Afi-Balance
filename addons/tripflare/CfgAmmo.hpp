@@ -5,7 +5,7 @@ class cfgAmmo {
 		indirectHit=0;
 		indirectHitRange=0;
 		defaultMagazine="Tripflare_Mag";
-		soundTrigger[] = {"A3\Sounds_F\weapons\Flare_Gun\flaregun_1_shoot",3.5,1,1000};
+		soundTrigger[] = {"A3\Sounds_F\weapons\Flare_Gun\flaregun_1_shoot.wss",3.5,1,1000};
 		soundHit[] = {"",0,0,0};
 		explosionEffects="Tripflare_Explosion_Effect";
 		CraterEffects="";
