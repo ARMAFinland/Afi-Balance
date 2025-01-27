@@ -13,8 +13,8 @@ Adjusts the accuracy and lethality of AA missiles.
 Blowpipe magazine = `AFiBalance_aa_3cb_factions_blowpipe_round`
 
 ### Tunguska
-`AFiBalance_aa_3cb_factions_mag_AZP23_2000_green`
-`AFiBalance_aa_3cb_factions_mag_AZP23_2000_red`
+`AFiBalance_aa_3cb_factions_mag_AZP23_2000_green`  
+`AFiBalance_aa_3cb_factions_mag_AZP23_2000_red`  
 `AFiBalance_aa_3cb_factions_mag_AZP23_2000_yellow`
 
 
@@ -24,7 +24,7 @@ Afi old = `AFiBalance_aa_rhs_afrf_9k32_rocket_old`
 Afi new = `AFiBalance_aa_rhs_afrf_9k32_rocket`  
 Static = `AFiBalance_aa_rhs_afrf_mag_2Rnd_Igla`  
 ### Shilka
-`AFiBalance_aa_rhs_afrf_mag_AZP23_2000`
+`AFiBalance_aa_rhs_afrf_mag_AZP23_2000`  
 `AFiBalance_aa_rhs_afrf_mag_AZP23_2000_mixed`
 
 ## aa_rhs_usaf
