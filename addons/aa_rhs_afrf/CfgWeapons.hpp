@@ -20,4 +20,9 @@ class CfgWeapons {
 		weaponInfoType = "RscWeaponEmpty";
 		weaponLockDelay = 4;
 	};
+
+	class CannonCore;
+	class rhs_weap_azp23: CannonCore {
+		magazines[] += {QGVAR(mag_AZP23_2000),QGVAR(mag_AZP23_2000_mixed)};
+	};
 };

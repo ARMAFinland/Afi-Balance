@@ -16,6 +16,6 @@ class CfgPatches {
 
 // configs go here
 #include "CfgAmmo.hpp"
+#include "CfgCloudlets.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgWeapons.hpp"
-#include "CfgCloudlets.hpp"

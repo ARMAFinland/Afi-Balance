@@ -24,5 +24,4 @@ class CfgAmmo {
 	class GVAR(9k32_missile): GVAR(missile_base) {
 
 	};
-
 };

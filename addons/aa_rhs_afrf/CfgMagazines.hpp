@@ -17,4 +17,14 @@ class CfgMagazines {
 		ammo = QGVAR(9k32_missile);
 		displayname = "9K32 - AFI";
 	};
+
+	class rhs_mag_AZP23_2000;
+	class GVAR(mag_AZP23_2000): rhs_mag_AZP23_2000 {
+		initSpeed = 1220;
+	};
+
+	class rhs_mag_AZP23_2000_mixed;
+	class GVAR(mag_AZP23_2000_mixed): rhs_mag_AZP23_2000_mixed {
+		initSpeed = 1220;
+	};
 };
