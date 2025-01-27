@@ -7,7 +7,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"rhs_c_heavyweapons","rhs_c_weapons","ace_compat_rhs_afrf3","afibalance_common","rhs_c_a2port_armor"};
+		requiredAddons[] = {"rhs_c_heavyweapons","rhs_c_weapons","ace_compat_rhs_afrf3","afibalance_common"};
 		authors[] = {"Johnson", "Tuntematon"};
 		VERSION_CONFIG;
 		skipWhenMissingDependencies = 1;
@@ -18,5 +18,4 @@ class CfgPatches {
 #include "CfgAmmo.hpp"
 #include "CfgCloudlets.hpp"
 #include "CfgMagazines.hpp"
-#include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
