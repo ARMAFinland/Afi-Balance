@@ -17,6 +17,8 @@ Blowpipe magazine = `AFiBalance_aa_3cb_factions_blowpipe_round`
 Afi old = `AFiBalance_aa_rhs_afrf_9k32_rocket_old`  
 Afi new = `AFiBalance_aa_rhs_afrf_9k32_rocket`  
 Static = `AFiBalance_aa_rhs_afrf_mag_2Rnd_Igla`  
+### Shilka
+AFI = `AFiBalance_aa_rhs_afrf_mag_AZP23_2000`
 
 ## aa_rhs_usaf
 ### Stinger
