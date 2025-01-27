@@ -22,4 +22,9 @@ class CfgMagazines {
 	class GVAR(mag_AZP23_2000): rhs_mag_AZP23_2000 {
 		initSpeed = 1220;
 	};
+
+	class rhs_mag_AZP23_2000_mixed;
+	class GVAR(mag_AZP23_2000_mixed): rhs_mag_AZP23_2000_mixed {
+		initSpeed = 1220;
+	};
 };
