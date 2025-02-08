@@ -8,7 +8,7 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {"afibalance_main","A3_Characters_F","fow_characters_c"};
-		authors[] = {"Tuntematon"};
+		authors[] = {"Enzio","Tuntematon"};
 		VERSION_CONFIG;
 		skipWhenMissingDependencies = 1;
 	};
