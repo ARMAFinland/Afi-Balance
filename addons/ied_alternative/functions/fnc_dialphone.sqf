@@ -58,5 +58,3 @@ if (_unit == ace_player) then {
 		[_explosive select 0,(_waitTime + 2) + (_explosive select 2), "ACE_Cellphone", _unit] call ACE_explosives_fnc_startTimer;
 	};
 };
-
-getArray (configFile >> "CfgAmmo" >> "PipeBombBase" >> "ACE_explosivesringtones")
