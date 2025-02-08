@@ -25,22 +25,28 @@ workshop = [
     "2369477168", # Advanced tool thing
 ]
 parameters = [
-    "-skipIntro",           # These parameters are passed to the Arma 3 executable
-    "-noSplash",            # They do not need to be added to your list
-    "-showScriptErrors",    # You can add additional parameters here
     "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\minetest.Enoch\\mission.sqm", # Launch into existing Editor Mission - \\ needed
 ]
 
-[hemtt.launch.all]
+[hemtt.launch.kiina]
+extends = "default"
 workshop = [
-    "450814997", # CBA_A3
-    "463939057", # ACE
+    "2691430448", 
+    "2291129343", 
+    "891433622", 
+]
+parameters = [
+    "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\minetest.Enoch\\mission.sqm",
+]
+
+[hemtt.launch.all]
+extends = "default"
+workshop = [
     "843425103", # RHS AFRF Workshop ID
     "843577117", # RHS USAF Workshop ID
     "843593391", # RHS GREF Workshop ID
     "843632231", # RHS SAF  Workshop ID
     "1673456286", # 3CB FACTIONS Workshop ID
-    "2369477168", # Advanced tool thing
     "1661066023", # RKSL
     "893339590", # BAF weapons
     "893349825", # BAF vehicle
@@ -49,9 +55,6 @@ workshop = [
 ]
 
 parameters = [
-    "-skipIntro",           # These parameters are passed to the Arma 3 executable
-    "-noSplash",            # They do not need to be added to your list
-    "-showScriptErrors",    # You can add additional parameters here
     # "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\igla.altis\\mission.sqm", # Launch into existing Editor Mission - \\ needed
 ]
 
@@ -60,16 +63,14 @@ folder = "afi_balance"
 
 
 [hemtt.launch.server]
+extends = "default"
 workshop = [
-    "450814997", # CBA_A3
-    "463939057", # ACE
     "843425103", # RHS AFRF Workshop ID
     "843577117", # RHS USAF Workshop ID
     "843593391", # RHS GREF Workshop ID
     "843632231", # RHS SAF  Workshop ID
     "1673456286", # 3CB FACTIONS Workshop ID
     "893349825", # 3CB Vehicles Workshop ID
-    "2369477168", # Advanced tool thing
 ]
 parameters = [
     "-server",
@@ -80,16 +81,14 @@ parameters = [
 ]
 
 [hemtt.launch.player]
+extends = "default"
 workshop = [
-    "450814997", # CBA_A3
-    "463939057", # ACE
     "843425103", # RHS AFRF Workshop ID
     "843577117", # RHS USAF Workshop ID
     "843593391", # RHS GREF Workshop ID
     "843632231", # RHS SAF  Workshop ID
     "1673456286", # 3CB FACTIONS Workshop ID
     "893349825", # 3CB Vehicles Workshop ID
-    "2369477168", # Advanced tool thing
 ]
 parameters = [
     "-skipIntro",         # These parameters are passed to the Arma 3 executable
