@@ -1,2 +1,2 @@
-PREP(dialphone);
+PREP(dialPhone);
 PREP(dialingPhone);

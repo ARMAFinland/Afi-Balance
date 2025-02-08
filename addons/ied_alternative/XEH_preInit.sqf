@@ -5,4 +5,7 @@ PREP_RECOMPILE_START;
 #include "XEH_prep.hpp"
 PREP_RECOMPILE_END;
 
+
+GVAR(iedRingtonesHash) = createHashMap;
+
 ADDON = true;
