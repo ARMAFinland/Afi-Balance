@@ -15,21 +15,9 @@ class CfgPatches {
 };
 
 // configs go here
-#include "CfgEventHandlers.hpp"
 #include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgWeapons.hpp"
-// #include "ACE_Triggers.hpp"
-
-
-class Rsc_ACE_HiddenButton;
-class Rsc_ACE_PhoneInterface {
-	class controls {
-		class dial: Rsc_ACE_HiddenButton {
-			action = QUOTE([ARR_2(ace_player,ctrlText 1400)] call FUNC(dialPhone));
-		};
-	};
-};
 
 class CfgMineTriggers {
 	class RangeTrigger;
