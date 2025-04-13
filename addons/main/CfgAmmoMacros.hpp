@@ -63,7 +63,7 @@
 		ace_frag_metal = 2680; \
 		ace_frag_charge = 420; \
 		ace_frag_gurney_c = 2440; \
-		ace_frag_gurney_k = "1/2"; \
+		ace_frag_gurney_k = 0.5; \
 		ace_frag_skip = 0; \
 		ace_frag_force = 0;
 
@@ -80,7 +80,7 @@
 		ace_frag_metal = 36000; \
 		ace_frag_charge = 9979; \
 		ace_frag_gurney_c = 2440; \
-		ace_frag_gurney_k = "1/2"; \
+		ace_frag_gurney_k = 0.5; \
 		ace_frag_skip = 0; \
 		ace_frag_force = 0;
 
@@ -97,7 +97,7 @@
 		ace_frag_metal = 12790; \
 		ace_frag_charge = 2180; \
 		ace_frag_gurney_c = 2440; \
-		ace_frag_gurney_k = "1/2"; \
+		ace_frag_gurney_k = 0.5; \
 		ace_frag_skip = 0; \
 		ace_frag_force = 0;
 
