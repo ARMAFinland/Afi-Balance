@@ -58,6 +58,23 @@ parameters = [
     # "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\igla.altis\\mission.sqm", # Launch into existing Editor Mission - \\ needed
 ]
 
+[hemtt.launch.fdf]
+extends = "default"
+workshop = [
+    "843425103", # RHS AFRF Workshop ID
+    "843577117", # RHS USAF Workshop ID
+    "843593391", # RHS GREF Workshop ID
+    "843632231", # RHS SAF  Workshop ID
+    "3169204623", # kartsa fdf
+    "826911897", #SFP
+    "917042703", #FFP
+    "909320014", #HAFM
+]
+
+parameters = [
+    # "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\igla.altis\\mission.sqm", # Launch into existing Editor Mission - \\ needed
+]
+
 [hemtt.release]
 folder = "afi_balance"
 
