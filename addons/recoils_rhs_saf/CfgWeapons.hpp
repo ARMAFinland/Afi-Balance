@@ -4,7 +4,6 @@ class CfgWeapons {
 	class rhs_weap_g36kv_ag36;
 	class rhs_weap_g36kv;
 	class rhs_weap_m21a_pbg40;
-	class rhs_weap_m21a;
 	class rhs_weap_minimi_para_railed;
 	class Rifle_Base_F;
 	class Rifle_Long_Base_F;

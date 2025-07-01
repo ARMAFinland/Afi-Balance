@@ -1,5 +1,6 @@
 class CfgAmmo {
 	class rhs_ammo_atgmBase_base;
+	class EventHandlers;
 	
 	class rhs_ammo_9m113 : rhs_ammo_atgmBase_base {
 		maneuvrability = 14;

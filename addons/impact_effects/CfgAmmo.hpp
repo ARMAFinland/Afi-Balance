@@ -1,5 +1,4 @@
 class CfgAmmo {
-	class Default;
 	class BulletCore;
 	class ShellCore;
 	class ShellBase: ShellCore{};

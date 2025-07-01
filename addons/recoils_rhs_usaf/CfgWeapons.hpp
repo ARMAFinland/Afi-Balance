@@ -10,16 +10,10 @@ class CfgWeapons {
 	class rhs_weap_mk17_LB;
 	class rhs_weap_mk17_STD;
 	class rhs_weap_SCAR_Base;
-	class rhs_weap_SCARH_FDE_CQC;
-	class rhs_weap_SCARH_FDE_LB;
-	class rhs_weap_SCARH_FDE_STD;
-	class rhs_weap_SCARH_LB;
-	class rhs_weap_SCARH_STD;
 	class rhs_weap_SCARH_USA_CQC;
 	class rhs_weap_SCARH_USA_LB;
 	class rhs_weap_SCARH_USA_STD;
 	class Rifle_Base_F;
-	class Rifle_Long_Base_F;
 
 //M4
 	class rhs_weap_m4_Base : arifle_MX_Base_F { // ["rhsusf_c_weapons","rhsusf_sounds","ace_compat_rhs_usf3"]

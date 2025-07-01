@@ -10,5 +10,5 @@
 
 #define _aa_launcher_backblast_ \
 		ace_overpressure_angle = 30; \
-		ace_overpressure_damage = 0.5 \
+		ace_overpressure_damage = 0.5; \
 		ace_overpressure_range = 2; \

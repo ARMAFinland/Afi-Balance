@@ -14,7 +14,6 @@ class CfgWeapons {
 	class rhs_weap_pkp;
 	class rhs_weap_rpk_base;
 	class rhs_weap_rpk74m;
-	class rhs_weap_savz58v_ris;
 	class Rifle_Base_F;
 	class Rifle_Long_Base_F;
 

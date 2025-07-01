@@ -1,5 +1,4 @@
 class CfgMagazines {
-	class Titan_AA;
 	class rhs_mag_9k32_rocket;
 
 	class GVAR(9k32_rocket_old): rhs_mag_9k32_rocket {

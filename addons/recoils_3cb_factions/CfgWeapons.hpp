@@ -2,10 +2,8 @@ class CfgWeapons {
 
 	class rhs_weap_fnfal_base;
 	class Rifle_Base_F;
-	class Rifle_Long_Base_F;
 	class UK3CB_ACR_base;
 	class UK3CB_KH2002_BASE;
-
 
 //AKM
 
