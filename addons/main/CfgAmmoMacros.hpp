@@ -111,6 +111,11 @@
 #define _mortar_indirectRange_		7 //default 18
 
 
+#define _big_mortar_hit_				30
+#define _big_mortar_indirectHit_		30
+#define _big_mortar_indirectRange_		10
+
+
 #define _arty_155_hit_				300 //default 340
 #define _arty_155_indirectHit_		120 //default 125
 #define _arty_155_indirectRange_	20 //default 30
