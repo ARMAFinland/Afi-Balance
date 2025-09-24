@@ -10,7 +10,7 @@ class CfgPatches {
 		requiredAddons[] = {"A3_Weapons_F","A3_Sounds_F","ace_frag", "afibalance_main","TBD_MORTARS_120mm"};
 		authors[] = {"Johnson", "Tuntematon"};
 		VERSION_CONFIG;
-		//skipWhenMissingDependencies = 1;
+		skipWhenMissingDependencies = 1;
 	};
 };
 
