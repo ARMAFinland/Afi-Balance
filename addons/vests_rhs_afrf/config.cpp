@@ -7,12 +7,12 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"A3_Weapons_F","A3_Sounds_F","ace_frag", "afibalance_main","TBD_MORTARS_120mm"};
-		authors[] = {"Johnson", "Tuntematon"};
+		requiredAddons[] = {"afibalance_main","rhs_c_troops"};
+		authors[] = {"Tuntematon"};
 		VERSION_CONFIG;
 		skipWhenMissingDependencies = 1;
 	};
 };
 
 // configs go here
-#include "CfgAmmo.hpp"
+#include "CfgWeapons.hpp"
