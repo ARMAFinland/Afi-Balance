@@ -13,7 +13,7 @@
 	};
 	// Don't add a new EH if the unit respawned
 	if ((_player getVariable [QGVAR(firedEH), -1]) == -1) then {
-		if ((getNumber (configFile >> "CfgVehicles" >> (typeOf _player) >> "isPlayableLogic")) == 1) exitWith {
+		if ((getNumber (configOf _player >> "isPlayableLogic")) == 1) exitWith {
 		};
 		private _firedEH = _player addEventHandler ["Fired", FUNC(fired)];
 		_player setVariable [QGVAR(firedEH), _firedEH];
