@@ -18,18 +18,22 @@ enabled = true
 [lint.sqf]
 enabled = true
 
-[hemtt.launch.default]
+
+[hemtt.launch.base]
 workshop = [
     "450814997", # CBA_A3
     "463939057", # ACE
     "3499977893", # Advanced tool thing
 ]
+
+[hemtt.launch.default]
+extends = "base"
 parameters = [
     "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\minetest.Enoch\\mission.sqm", # Launch into existing Editor Mission - \\ needed
 ]
 
 [hemtt.launch.kiina]
-extends = "default"
+extends = "base"
 workshop = [
     "2691430448", 
     "2291129343", 
@@ -40,7 +44,7 @@ parameters = [
 ]
 
 [hemtt.launch.all]
-extends = "default"
+extends = "base"
 workshop = [
     "843425103", # RHS AFRF Workshop ID
     "843577117", # RHS USAF Workshop ID
@@ -58,21 +62,17 @@ parameters = [
     # "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\igla.altis\\mission.sqm", # Launch into existing Editor Mission - \\ needed
 ]
 
-[hemtt.launch.fdf]
-extends = "default"
+[hemtt.launch.rhs]
+extends = "base"
 workshop = [
     "843425103", # RHS AFRF Workshop ID
     "843577117", # RHS USAF Workshop ID
     "843593391", # RHS GREF Workshop ID
     "843632231", # RHS SAF  Workshop ID
-    "3169204623", # kartsa fdf
-    "826911897", #SFP
-    "917042703", #FFP
-    "909320014", #HAFM
 ]
 
 parameters = [
-    # "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\igla.altis\\mission.sqm", # Launch into existing Editor Mission - \\ needed
+    "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\igla.altis\\mission.sqm", # Launch into existing Editor Mission - \\ needed
 ]
 
 [hemtt.release]
@@ -80,7 +80,7 @@ folder = "afi_balance"
 
 
 [hemtt.launch.server]
-extends = "default"
+extends = "base"
 workshop = [
     "843425103", # RHS AFRF Workshop ID
     "843577117", # RHS USAF Workshop ID
@@ -96,7 +96,7 @@ parameters = [
 ]
 
 [hemtt.launch.player]
-extends = "default"
+extends = "base"
 workshop = [
     "843425103", # RHS AFRF Workshop ID
     "843577117", # RHS USAF Workshop ID
