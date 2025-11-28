@@ -39,7 +39,7 @@ private _flareSound = getText (configFile >> "CfgAmmo" >> _name >> QGVAR(flareSo
 private _soundDistance = getNumber (configFile >> "CfgAmmo" >> _name >> QGVAR(soundDistance));
 
 [_projectile,[_triggerSound, _soundDistance]] remoteExecCall ["say3D", [0, -2] select isDedicated];
-_soundSource = createSoundSource [_flareSound,_pos,[],0];
+private _soundSource = createSoundSource [_flareSound,_pos,[],0];
 
 [{
 	params ["_args", "_handle"];

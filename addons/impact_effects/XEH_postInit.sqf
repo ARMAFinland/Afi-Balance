@@ -2,7 +2,7 @@
 
 GVAR(hide_effect) = false;
 
-_handle = [{
+[{
 	if (particlesQuality < 2) then {
 		"particleWarning" cutText ["High particles quality is required. Mods do not work properly otherwise.\nYou can change particles quality from Video options", "BLACK FADED", 0];
 	} else {
