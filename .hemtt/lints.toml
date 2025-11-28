@@ -32,3 +32,8 @@ enabled = false
 
 [sqf.not_private]
 enabled = true
+
+[sqf.command_case]
+severity = "Help"
+options.ignore = [
+    "Blufor",
