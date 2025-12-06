@@ -37,3 +37,7 @@ enabled = true
 severity = "Help"
 options.ignore = [
     "Blufor",
+    "Opfor",
+    "Independent",
+    "Civilian",
+]
