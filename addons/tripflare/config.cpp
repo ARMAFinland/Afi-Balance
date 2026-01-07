@@ -4,7 +4,7 @@
 class CfgPatches {
 	class ADDON {
 		name = COMPONENT_NAME;
-		units[] = {};
+		units[] = {QGVAR(Mine_Red), QGVAR(Mine_Yellow), QGVAR(Mine_Green), QGVAR(Mine_White), QGVAR(Mine_Ground_Red), QGVAR(Mine_Ground_Yellow), QGVAR(Mine_Ground_Green), QGVAR(Mine_Ground_White)};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {"ace_explosives","A3_Weapons_F","cba_xeh", "afibalance_main"};
