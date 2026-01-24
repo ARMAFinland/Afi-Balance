@@ -5,9 +5,24 @@ class CfgWeapons {
 		class ItemInfo;
 	};
 	
-	class V_NORTH_FIN_Generic_1: Vest_Camo_Base {
-        class ItemInfo: ItemInfo {
-			containerClass = "Supply100";
-        };
-	};
+	SET_SUPPLY100(V_NORTH_FIN_Generic_1,Vest_Camo_Base)
+
+	SET_SUPPLY100(V_NORTH_SOV_Belt_Mosin,Vest_Camo_Base)
+	SET_SUPPLY100(V_NORTH_SOV_Belt_Mosin_2,V_NORTH_SOV_Belt_Mosin)
+	SET_SUPPLY100(V_NORTH_SOV_Belt_Mosin_3,V_NORTH_SOV_Belt_Mosin)
+	SET_SUPPLY100(V_NORTH_SOV_Belt_Mosin_4,V_NORTH_SOV_Belt_Mosin)
+	SET_SUPPLY100(V_NORTH_SOV_Belt_Mosin_5,V_NORTH_SOV_Belt_Mosin)
+	SET_SUPPLY100(V_NORTH_SOV_Belt_Mosin_Imperial,Vest_Camo_Base)
+	SET_SUPPLY100(V_NORTH_SOV_Belt_Mosin_Imperial_2,V_NORTH_SOV_Belt_Mosin_Imperial)
+	SET_SUPPLY100(V_NORTH_SOV_Belt_Mosin_Imperial_3,V_NORTH_SOV_Belt_Mosin_Imperial)
+	SET_SUPPLY100(V_NORTH_SOV_Belt_Mosin_Imperial_4,V_NORTH_SOV_Belt_Mosin_Imperial)
+
+	SET_SUPPLY100(V_NORTH_SOV_Belt_SMG,Vest_Camo_Base)
+	SET_SUPPLY100(V_NORTH_SOV_Belt_SMG_2,V_NORTH_SOV_Belt_SMG)
+	SET_SUPPLY100(V_NORTH_SOV_Belt_SMG_3,V_NORTH_SOV_Belt_SMG)
+	SET_SUPPLY100(V_NORTH_SOV_Belt_SMG_4,V_NORTH_SOV_Belt_SMG)
+	SET_SUPPLY100(V_NORTH_SOV_Belt_SMG_5,V_NORTH_SOV_Belt_SMG)
+
+	SET_SUPPLY100(V_NORTH_SOV_Belt_SVT,Vest_Camo_Base)
+	SET_SUPPLY100(V_NORTH_SOV_Belt_SVT_2,V_NORTH_SOV_Belt_SMG)
 };

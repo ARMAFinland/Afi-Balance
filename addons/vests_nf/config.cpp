@@ -7,7 +7,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"NORTH_Finnish_Gear","afibalance_main"};
+		requiredAddons[] = {"NORTH_Finnish_Gear","NORTH_Soviet_Gear","afibalance_main"};
 		authors[] = {"Tuntematon"};
 		VERSION_CONFIG;
 		skipWhenMissingDependencies = 1;

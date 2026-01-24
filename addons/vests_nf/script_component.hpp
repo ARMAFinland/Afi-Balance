@@ -10,3 +10,10 @@
 #endif
 
 #include "\x\afibalance\addons\main\script_macros.hpp"
+
+#define SET_SUPPLY100(CLASNAME,PARRENT) \
+class CLASNAME: PARRENT { \
+	class ItemInfo: ItemInfo { \
+		containerClass = "Supply100"; \
+	}; \
+};
