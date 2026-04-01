@@ -1,5 +1,5 @@
-#define COMPONENT flare_tweak
-#define COMPONENT_BEAUTIFIED flare_tweak
+#define COMPONENT flare_tweaks
+#define COMPONENT_BEAUTIFIED flare_tweaks
 #include "\x\afibalance\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
