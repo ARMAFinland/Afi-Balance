@@ -118,3 +118,10 @@ parameters = [
     "-port=2302",
     "-window",
 ]
+
+[hemtt.launch.bwa]
+extends = "rhs"
+workshop = [
+    "1200127537", # BWA Workshop ID
+    
+]
