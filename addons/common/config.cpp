@@ -14,5 +14,6 @@ class CfgPatches {
 };
 
 // configs go here
+#include "CfgEventHandlers.hpp"
 #include "CfgCloudlets.hpp"
 #include "CfgInGameUI.hpp"

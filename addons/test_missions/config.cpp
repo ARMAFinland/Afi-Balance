@@ -7,12 +7,19 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"tfar_backpacks","afibalance_main"};
+		requiredAddons[] = {"afibalance_main"};
 		authors[] = {"Tuntematon"};
 		VERSION_CONFIG;
 		skipWhenMissingDependencies = 1;
 	};
 };
 
-// configs go here
-#include "CfgVehicles.hpp"
+// class CfgMissions {
+// 	class MPMissions {
+// 		class damage_medical_testing {
+// 			briefingName = "HALOOOOOO";
+// 			directory = "x\afibalance\addons\test_missions\damage_medical_testing.VR";
+// 		};
+// 	};
+// };
+

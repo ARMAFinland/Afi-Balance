@@ -1,4 +1,4 @@
-// Redefines armor values for 12 vest class(es). This is auto exported config. Base mod: rhs_c_troops
+// Redefines armor values for 7 vest class(es). This is auto exported config. Base mod: A3_Characters_F_Exp_Vests
 class CfgWeapons {
    class ItemCore;
 
@@ -6,245 +6,93 @@ class CfgWeapons {
        class ItemInfo;
    };
 
-    class rhs_6b23: Vest_Camo_Base {
-        class ItemInfo: ItemInfo {
-            class HitpointsProtectionInfo {
-                class Neck {
-                    armor = ARMOR_VALUE_NECK;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Chest {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Diaphragm {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Abdomen {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Body {
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-            };
-        };
-    };
-
-   class rhs_6b23_digi: rhs_6b23 {
+   class Vest_NoCamo_Base: ItemCore {
        class ItemInfo;
    };
 
-    class rhs_6b23_6sh92: rhs_6b23 {
-        class ItemInfo: ItemInfo {
-            class HitpointsProtectionInfo: HitpointsProtectionInfo {
-                class Neck: Neck {
-                    armor = ARMOR_VALUE_NECK;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Chest: Chest {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Diaphragm: Diaphragm {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Abdomen: Abdomen {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Body: Body {
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-            };
-        };
-    };
-
-   class rhs_6b23_6sh92_radio: rhs_6b23_6sh92 {
-       class ItemInfo;
+   class V_PlateCarrier1_blk: Vest_Camo_Base {
+       class ItemInfo: ItemInfo {
+           class HitpointsProtectionInfo {
+               class Chest;
+               class Diaphragm;
+               class Abdomen;
+               class Body;
+           };
+       };
    };
 
-    class rhs_6b23_digi_6sh92_Spetsnaz: rhs_6b23_6sh92_radio {
-        class ItemInfo: ItemInfo {
-            class HitpointsProtectionInfo {
-                class Neck {
-                    armor = ARMOR_VALUE_NECK;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Chest {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Diaphragm {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Abdomen {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Body {
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-            };
-        };
-    };
+   class V_PlateCarrierSpec_rgr: Vest_NoCamo_Base {
+       class ItemInfo: ItemInfo {
+           class HitpointsProtectionInfo {
+               class Neck;
+               class Arms;
+               class Chest;
+               class Diaphragm;
+               class Abdomen;
+               class Body;
+           };
+       };
+   };
 
-    class rhs_6b23_vydra_3m: rhs_6b23_6sh92 {
-        class ItemInfo: ItemInfo {
-            class HitpointsProtectionInfo: HitpointsProtectionInfo {
-                class Neck: Neck {
-                    armor = ARMOR_VALUE_NECK;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Chest: Chest {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Diaphragm: Diaphragm {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Abdomen: Abdomen {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Body: Body {
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-            };
-        };
-    };
+   class V_PlateCarrierGL_rgr: Vest_NoCamo_Base {
+       class ItemInfo: ItemInfo {
+           class HitpointsProtectionInfo {
+               class Neck;
+               class Arms;
+               class Chest;
+               class Diaphragm;
+               class Abdomen;
+               class Pelvis;
+               class Body;
+           };
+       };
+   };
 
-    class rhs_6b23_6sh116: rhs_6b23_digi {
-        class ItemInfo: ItemInfo {
-            class HitpointsProtectionInfo {
-                class Neck {
-                    armor = ARMOR_VALUE_NECK;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Chest {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Diaphragm {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Abdomen {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Body {
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-            };
-        };
-    };
+   class V_TacVest_blk_POLICE: Vest_Camo_Base {
+       class ItemInfo: ItemInfo {
+           class HitpointsProtectionInfo {
+               class Chest;
+               class Diaphragm;
+               class Abdomen;
+               class Body;
+           };
+       };
+   };
 
-    class rhs_6b13: rhs_6b23 {
-        class ItemInfo: ItemInfo {
-            class HitpointsProtectionInfo: HitpointsProtectionInfo {
-                class Neck: Neck {
-                    armor = ARMOR_VALUE_NECK;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Chest: Chest {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Diaphragm: Diaphragm {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Abdomen: Abdomen {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Body: Body {
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-            };
-        };
-    };
+   class V_PlateCarrier1_rgr: Vest_NoCamo_Base {
+       class ItemInfo: ItemInfo {
+           class HitpointsProtectionInfo {
+               class Chest;
+               class Diaphragm;
+               class Abdomen;
+               class Body;
+           };
+       };
+   };
 
-    class rhs_6b13_6sh92: rhs_6b13 {
-        class ItemInfo: ItemInfo {
-            class HitpointsProtectionInfo: HitpointsProtectionInfo {
-                class Neck: Neck {
-                    armor = ARMOR_VALUE_NECK;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Chest: Chest {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Diaphragm: Diaphragm {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Abdomen: Abdomen {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Body: Body {
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-            };
-        };
-    };
+   class V_PlateCarrier2_rgr: V_PlateCarrier1_rgr {
+       class ItemInfo: ItemInfo {
+           class HitpointsProtectionInfo: HitpointsProtectionInfo {
+               class Chest: Chest {};
+               class Diaphragm: Diaphragm {};
+               class Abdomen: Abdomen {};
+               class Body: Body {};
+           };
+       };
+   };
 
-    class rhs_6b43: rhs_6b23 {
-        class ItemInfo: ItemInfo {
-            class HitpointsProtectionInfo: HitpointsProtectionInfo {
-                class Neck: Neck {
-                    armor = ARMOR_VALUE_NECK;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Chest: Chest {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Diaphragm: Diaphragm {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Abdomen: Abdomen {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Body: Body {
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-            };
-        };
-    };
+   class V_PlateCarrier2_blk: V_PlateCarrier2_rgr {
+       class ItemInfo: ItemInfo {
+           class HitpointsProtectionInfo: HitpointsProtectionInfo {
+               class Chest: Chest {};
+               class Diaphragm: Diaphragm {};
+               class Abdomen: Abdomen {};
+               class Body: Body {};
+           };
+       };
+   };
 
-    class rhs_6b2: Vest_Camo_Base {
-        class ItemInfo: ItemInfo {
-            class HitpointsProtectionInfo {
-                class Chest {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Diaphragm {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Abdomen {
-                    armor = ARMOR_VALUE;
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-                class Body {
-                    PassThrough = PASS_THROUGH_VALUE;
-                };
-            };
-        };
-    };
-
-    class rhs_6b3: rhs_6b2 {
+    class V_PlateCarrier1_tna_F: V_PlateCarrier1_blk {
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo: HitpointsProtectionInfo {
                 class Chest: Chest {
@@ -266,11 +114,37 @@ class CfgWeapons {
         };
     };
 
-    class rhs_6b5: rhs_6b23 {
+    class V_PlateCarrier2_tna_F: V_PlateCarrier2_blk {
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo: HitpointsProtectionInfo {
+                class Chest: Chest {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Diaphragm: Diaphragm {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Abdomen: Abdomen {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Body: Body {
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+            };
+        };
+    };
+
+    class V_PlateCarrierSpec_tna_F: V_PlateCarrierSpec_rgr {
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo: HitpointsProtectionInfo {
                 class Neck: Neck {
                     armor = ARMOR_VALUE_NECK;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Arms: Arms {
+                    armor = ARMOR_VALUE;
                     PassThrough = PASS_THROUGH_VALUE;
                 };
                 class Chest: Chest {
@@ -286,20 +160,93 @@ class CfgWeapons {
                     PassThrough = PASS_THROUGH_VALUE;
                 };
                 class Body: Body {
-                    armor = ARMOR_VALUE;
                     PassThrough = PASS_THROUGH_VALUE;
                 };
             };
         };
     };
 
-    class rhs_6b45: rhs_6b43 {
+    class V_PlateCarrierGL_tna_F: V_PlateCarrierGL_rgr {
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo: HitpointsProtectionInfo {
                 class Neck: Neck {
                     armor = ARMOR_VALUE_NECK;
                     PassThrough = PASS_THROUGH_VALUE;
                 };
+                class Arms: Arms {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Chest: Chest {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Diaphragm: Diaphragm {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Abdomen: Abdomen {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Pelvis: Pelvis {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Body: Body {
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+            };
+        };
+    };
+
+    class V_TacVest_gen_F: V_TacVest_blk_POLICE {
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo: HitpointsProtectionInfo {
+                class Chest: Chest {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Diaphragm: Diaphragm {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Abdomen: Abdomen {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Body: Body {
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+            };
+        };
+    };
+
+    class V_PlateCarrier1_rgr_noflag_F: V_PlateCarrier1_rgr {
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo: HitpointsProtectionInfo {
+                class Chest: Chest {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Diaphragm: Diaphragm {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Abdomen: Abdomen {
+                    armor = ARMOR_VALUE;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Body: Body {
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+            };
+        };
+    };
+
+    class V_PlateCarrier2_rgr_noflag_F: V_PlateCarrier2_rgr {
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo: HitpointsProtectionInfo {
                 class Chest: Chest {
                     armor = ARMOR_VALUE;
                     PassThrough = PASS_THROUGH_VALUE;

@@ -1,47 +1,44 @@
-// Redefines armor values for 2 vest class(es). This is auto exported config. Base mod: bwa3_vests
+// Redefines armor values for 2 vest class(es). This is auto exported config. Base mod: rhssaf_c_gear
 class CfgWeapons {
-   class Vest_NoCamo_Base;
+   class ItemCore;
 
-   class V_PlateCarrier1_rgr: Vest_NoCamo_Base {
+   class Vest_Camo_Base: ItemCore {
        class ItemInfo;
    };
 
-   class V_PlateCarrier2_rgr: V_PlateCarrier1_rgr {
-       class ItemInfo: ItemInfo {
-           class HitpointsProtectionInfo {
-               class Chest;
-               class Diaphragm;
-               class Abdomen;
-               class Body;
-           };
-       };
-   };
-
-    class BWA3_Vest_Fleck: V_PlateCarrier2_rgr {
+    class rhssaf_balistic_vest_base: Vest_Camo_Base {
         class ItemInfo: ItemInfo {
-            class HitpointsProtectionInfo: HitpointsProtectionInfo {
-                class Chest: Chest {
+            class HitpointsProtectionInfo {
+                class Neck {
+                    armor = ARMOR_VALUE_NECK;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Chest {
                     armor = ARMOR_VALUE;
                     PassThrough = PASS_THROUGH_VALUE;
                 };
-                class Diaphragm: Diaphragm {
+                class Diaphragm {
                     armor = ARMOR_VALUE;
                     PassThrough = PASS_THROUGH_VALUE;
                 };
-                class Abdomen: Abdomen {
+                class Abdomen {
                     armor = ARMOR_VALUE;
                     PassThrough = PASS_THROUGH_VALUE;
                 };
-                class Body: Body {
+                class Body {
                     PassThrough = PASS_THROUGH_VALUE;
                 };
             };
         };
     };
 
-    class BWA3_Vest_JPC_Rifleman_Fleck: V_PlateCarrier2_rgr {
+    class rhssaf_vest_otv_md2camo: rhssaf_balistic_vest_base {
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo: HitpointsProtectionInfo {
+                class Neck: Neck {
+                    armor = ARMOR_VALUE_NECK;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
                 class Chest: Chest {
                     armor = ARMOR_VALUE;
                     PassThrough = PASS_THROUGH_VALUE;

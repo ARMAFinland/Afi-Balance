@@ -1,14 +1,15 @@
-// Redefines armor values for 2 vest class(es). This is auto exported config. Base mod: bwa3_vests
+// Redefines armor values for 2 vest class(es). This is auto exported config. Base mod: rhsgref_c_troops
 class CfgWeapons {
-   class Vest_NoCamo_Base;
+   class ItemCore;
 
-   class V_PlateCarrier1_rgr: Vest_NoCamo_Base {
+   class Vest_Camo_Base: ItemCore {
        class ItemInfo;
    };
 
-   class V_PlateCarrier2_rgr: V_PlateCarrier1_rgr {
+   class rhs_6b23: Vest_Camo_Base {
        class ItemInfo: ItemInfo {
            class HitpointsProtectionInfo {
+               class Neck;
                class Chest;
                class Diaphragm;
                class Abdomen;
@@ -17,9 +18,13 @@ class CfgWeapons {
        };
    };
 
-    class BWA3_Vest_Fleck: V_PlateCarrier2_rgr {
+    class rhsgref_6b23_khaki: rhs_6b23 {
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo: HitpointsProtectionInfo {
+                class Neck: Neck {
+                    armor = ARMOR_VALUE_NECK;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
                 class Chest: Chest {
                     armor = ARMOR_VALUE;
                     PassThrough = PASS_THROUGH_VALUE;
@@ -39,22 +44,30 @@ class CfgWeapons {
         };
     };
 
-    class BWA3_Vest_JPC_Rifleman_Fleck: V_PlateCarrier2_rgr {
+   class rhsgref_6b23_khaki_rifleman: rhsgref_6b23_khaki {
+       class ItemInfo;
+   };
+
+    class rhsgref_otv_khaki: rhsgref_6b23_khaki_rifleman {
         class ItemInfo: ItemInfo {
-            class HitpointsProtectionInfo: HitpointsProtectionInfo {
-                class Chest: Chest {
+            class HitpointsProtectionInfo {
+                class Neck {
+                    armor = ARMOR_VALUE_NECK;
+                    PassThrough = PASS_THROUGH_VALUE;
+                };
+                class Chest {
                     armor = ARMOR_VALUE;
                     PassThrough = PASS_THROUGH_VALUE;
                 };
-                class Diaphragm: Diaphragm {
+                class Diaphragm {
                     armor = ARMOR_VALUE;
                     PassThrough = PASS_THROUGH_VALUE;
                 };
-                class Abdomen: Abdomen {
+                class Abdomen {
                     armor = ARMOR_VALUE;
                     PassThrough = PASS_THROUGH_VALUE;
                 };
-                class Body: Body {
+                class Body {
                     PassThrough = PASS_THROUGH_VALUE;
                 };
             };

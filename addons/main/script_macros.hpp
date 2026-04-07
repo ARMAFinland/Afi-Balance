@@ -8,6 +8,8 @@
 	#define PREP(fncName) [QPATHTOF(functions\DOUBLES(fnc,fncName).sqf), QFUNC(fncName)] call CBA_fnc_compileFunction
 #endif
 
-
-#include "CfgAmmoMacros.hpp"
-#include "CfgWeaponsMacros.hpp"
+#include "aa_launcher_macros.hpp"
+#include "aa_missile_macros.hpp"
+#include "ammo_macros.hpp"
+#include "artillery_macros.hpp"
+#include "vest_armor_macros.hpp"

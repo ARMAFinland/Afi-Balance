@@ -24,12 +24,13 @@ workshop = [
     "450814997", # CBA_A3
     "463939057", # ACE
     "3499977893", # Advanced tool thing
+    # "894678801", # TFAR
 ]
 
 [hemtt.launch.default]
 extends = "base"
 parameters = [
-    "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\minetest.Enoch\\mission.sqm", # Launch into existing Editor Mission - \\ needed
+   # "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\minetest.Enoch\\mission.sqm", # Launch into existing Editor Mission - \\ needed
 ]
 
 [hemtt.launch.kiina]
@@ -40,7 +41,7 @@ workshop = [
     "891433622", 
 ]
 parameters = [
-    "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\minetest.Enoch\\mission.sqm",
+   # "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\minetest.Enoch\\mission.sqm",
 ]
 
 [hemtt.launch.all]
@@ -56,6 +57,7 @@ workshop = [
     "893349825", # BAF vehicle
     "893346105", # BAF units
     "893328083", # BAF Equipment
+    "1200127537", # BWA Workshop ID
 ]
 
 parameters = [
@@ -72,7 +74,7 @@ workshop = [
 ]
 
 parameters = [
-    "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\igla.altis\\mission.sqm", # Launch into existing Editor Mission - \\ needed
+   # "C:\\Users\\mikal\\Documents\\Arma 3 - Other Profiles\\Tuntematon\\missions\\igla.altis\\mission.sqm", # Launch into existing Editor Mission - \\ needed
 ]
 
 [hemtt.release]
@@ -81,14 +83,6 @@ folder = "afi_balance"
 
 [hemtt.launch.server]
 extends = "base"
-workshop = [
-    "843425103", # RHS AFRF Workshop ID
-    "843577117", # RHS USAF Workshop ID
-    "843593391", # RHS GREF Workshop ID
-    "843632231", # RHS SAF  Workshop ID
-    "1673456286", # 3CB FACTIONS Workshop ID
-    "893349825", # 3CB Vehicles Workshop ID
-]
 parameters = [
     "-server",
     "-port=2302",
@@ -97,14 +91,6 @@ parameters = [
 
 [hemtt.launch.player]
 extends = "base"
-workshop = [
-    "843425103", # RHS AFRF Workshop ID
-    "843577117", # RHS USAF Workshop ID
-    "843593391", # RHS GREF Workshop ID
-    "843632231", # RHS SAF  Workshop ID
-    "1673456286", # 3CB FACTIONS Workshop ID
-    "893349825", # 3CB Vehicles Workshop ID
-]
 parameters = [
     "-skipIntro",         # These parameters are passed to the Arma 3 executable
     "-noSplash",          # They do not need to be added to your list
@@ -123,5 +109,4 @@ parameters = [
 extends = "rhs"
 workshop = [
     "1200127537", # BWA Workshop ID
-    
 ]

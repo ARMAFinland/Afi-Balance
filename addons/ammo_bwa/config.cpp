@@ -7,8 +7,8 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"afibalance_main","afibalance_flare_tweaks","rhsusf_c_weapons"};
-		authors[] = {"Tikka", "Tuntematon"};
+		requiredAddons[] = {"bwa3_weapons","bwa3_comp_ace","afibalance_main"};
+		authors[] = {"Tuntematon"};
 		VERSION_CONFIG;
 		skipWhenMissingDependencies = 1;
 	};

@@ -7,12 +7,12 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"afibalance_main","afibalance_flare_tweaks","rhsusf_c_weapons"};
-		authors[] = {"Tikka", "Tuntematon"};
+		requiredAddons[] = {"afibalance_main", "rhsusf_c_troops"};
+		authors[] = {"Tuntematon"};
 		VERSION_CONFIG;
 		skipWhenMissingDependencies = 1;
 	};
 };
 
 // configs go here
-#include "CfgAmmo.hpp"
+#include "CfgWeapons.hpp"
