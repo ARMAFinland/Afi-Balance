@@ -21,7 +21,7 @@ params [
 ];
 
 private _baseMod = [_baseModOrClassName, ["CfgWeapons", "CfgVehicles"]] call FUNC(getBaseMod);
-private _cfgWeaponsRoot = configFile >> "CfgWeapons";
+private _CfgWeaponsRoot = configFile >> "CfgWeapons";
 private _nl = toString [13, 10];
 
 private _fnc_getClassHeader = {
@@ -92,7 +92,7 @@ private _fnc_getParentNameForClass = {
 
     if (_className isEqualTo "") exitWith {""};
 
-    configName (inheritsFrom (_cfgWeaponsRoot >> _className))
+    configName (inheritsFrom (_CfgWeaponsRoot >> _className))
 };
 
 // configSourceAddonList (configFile >> "CfgWeapons" >> "rhs_6b5_medic")
@@ -127,7 +127,7 @@ private _condition = toString {
     (_definesProtectionOnSelf || {_firstClassFromBaseMod}) &&
     _meetsArmorThreshold
 };
-private _cfgArray = _condition configClasses _cfgWeaponsRoot;
+private _cfgArray = _condition configClasses _CfgWeaponsRoot;
 private _exportedClassNames = _cfgArray apply {configName _x};
 
 private _externalForwardNames = [];
@@ -161,9 +161,7 @@ private _fnc_registerExternalParent = {
     };
 
     if (_needsDetails) then {
-        if !(_className in _externalDetailedNames) then {
-            _externalDetailedNames pushBack _className;
-        };
+        _externalDetailedNames pushBackUnique _className;
 
         _externalForwardNames = _externalForwardNames - [_className];
     } else {
@@ -187,7 +185,7 @@ private _fnc_getGeneratedParentCapabilities = {
 
     if (_className isEqualTo "") exitWith {[false, false]};
 
-    private _cfg = _cfgWeaponsRoot >> _className;
+    private _cfg = _CfgWeaponsRoot >> _className;
 
     if (_className in _generatedClassNames) exitWith {
         [
@@ -218,7 +216,7 @@ private _fnc_getExternalParentDeclaration = {
             format ["   class %1;", _className]
         };
 
-        private _cfg = _cfgWeaponsRoot >> _className;
+        private _cfg = _CfgWeaponsRoot >> _className;
         private _parentName = configName (inheritsFrom _cfg);
         private _classHeader = if (_parentName isEqualTo "") then {
             format ["   class %1", _className]
@@ -233,7 +231,7 @@ private _fnc_getExternalParentDeclaration = {
         ]
     };
 
-    private _cfg = _cfgWeaponsRoot >> _className;
+    private _cfg = _CfgWeaponsRoot >> _className;
     if (!isClass _cfg) exitWith {
         format ["   class %1;", _className]
     };
@@ -456,8 +454,8 @@ private _sortedExternalDetailedHeaderNames = [_externalDetailedHeaderNames] call
     private _parentName = [_x] call _fnc_getParentNameForClass;
     if (
         (_parentName in _externalForwardNames) &&
-        {isClass (_cfgWeaponsRoot >> _parentName >> "ItemInfo")} &&
-        {[_cfgWeaponsRoot >> _x] call _fnc_externalParentHasDetailedHitpoints}
+        {isClass (_CfgWeaponsRoot >> _parentName >> "ItemInfo")} &&
+        {[_CfgWeaponsRoot >> _x] call _fnc_externalParentHasDetailedHitpoints}
     ) then {
         _externalForwardWithItemInfoNames pushBackUnique _parentName;
     };

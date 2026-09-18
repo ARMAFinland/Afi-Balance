@@ -1,4 +1,4 @@
-class cfgAmmo {
+class CfgAmmo {
 	class MineCore;
 	class BoundingMineCore;
 	class DirectionalBombCore;

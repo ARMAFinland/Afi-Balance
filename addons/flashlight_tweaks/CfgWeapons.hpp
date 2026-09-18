@@ -1,6 +1,6 @@
 class InventoryFlashLightItem_Base_F;
 
-class cfgWeapons {
+class CfgWeapons {
 	class ItemCore;
 	class acc_flashlight: ItemCore {
 		class ItemInfo: InventoryFlashLightItem_Base_F {

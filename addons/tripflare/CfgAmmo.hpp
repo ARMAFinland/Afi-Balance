@@ -1,4 +1,4 @@
-class cfgAmmo {	
+class CfgAmmo {	
 	class APERSTripMine_Wire_Ammo;
 	class GVAR(Ammo_Base): APERSTripMine_Wire_Ammo {
 		hit=0;
