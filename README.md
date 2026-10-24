@@ -88,8 +88,14 @@ Recoil adjustments for UK3CB weapons.
 ## Ammo
 Tweaks to ammunition properties, including damage, penetration, and effects.
 
+### magazine_rhs_usaf
+Sets the weight of RHS USAF MAAWS magazines to `65`.
+
 ## Equipment
 Adjustments to gear and equipment.
+
+### backpack_bwa
+Sets the BWA3 Flecktarn Patrol Pack maximum load to `480`.
 
 ### vests_rhs_afrf
 Armor and weight tweaks for RHS AFRF vests.
